@@ -1,12 +1,12 @@
 name: Mert Kahyaoğlu
-description: Personal Blog
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+description: Mert Kahyaoğlu Personal Blog
 
 footer-links:
   email: mertkahyaoglu93@gmail.com
   facebook: mertkahyaoglu48
   github: mertkahyaoglu
   twitter: mertkahyaoglu48
+  linkedin: mertkahyaoglu48
 
 disqus: mertkahyaoglu
 google_analytics: UA-63041764-1
@@ -16,7 +16,7 @@ baseurl:
 
 permalink: /:title/
 
-version: v1.2.0
+version: v1.0.0
 
 kramdown:
   input: GFM
