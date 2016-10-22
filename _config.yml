@@ -1,0 +1,35 @@
+name: Mert Kahyaoğlu
+description: Personal Blog
+avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+
+footer-links:
+  email: mertkahyaoglu93@gmail.com
+  facebook: mertkahyaoglu48
+  github: mertkahyaoglu
+  twitter: mertkahyaoglu48
+
+disqus: mertkahyaoglu
+google_analytics: UA-63041764-1
+
+url: http://mert-kahyaoglu.com
+baseurl:
+
+permalink: /:title/
+
+version: v1.2.0
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+sass:
+  style: :expanded
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
