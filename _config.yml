@@ -18,11 +18,7 @@ permalink: /:title/
 
 version: v1.0.0
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: 'highlight'
+markdown: kramdown
 
 sass:
   style: :expanded
