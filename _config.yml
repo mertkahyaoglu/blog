@@ -27,6 +27,9 @@ kramdown:
 sass:
   style: :expanded
 
+gems:
+  - jemoji
+
 exclude:
   - Gemfile
   - Gemfile.lock
