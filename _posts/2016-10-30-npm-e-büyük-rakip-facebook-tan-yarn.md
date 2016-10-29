@@ -1,7 +1,7 @@
 ---
-title: 'NPM''e büyük rakip: Facebook''tan Yarn'
+title: 'NPM''e büyük rakip: Facebook''tan Yarn (Turkish)'
 layout: post
-keywords: yarn nedir, yarn paket yöneticisi
+keywords: yarn nedir, yarn paket yöneticisi, npm
 ---
 
 <img src="/blog/img/posts/yarn-banner.png" style="float:left;width:250px;" data-action="zoom"/>
