@@ -1,6 +1,7 @@
 ---
 title: 'NPM''e büyük rakip: Facebook''tan Yarn'
 layout: post
+keywords: yarn nedir, yarn paket yöneticisi
 ---
 
 <img src="/blog/img/posts/yarn-banner.png" style="float:left;width:250px;" data-action="zoom"/>

@@ -1,6 +1,7 @@
 ---
 title: Enis Karaarslan ile Google Summer of Code Deneyimi üzerine söyleşi (Turkish)
 layout: post
+keywords: google summer of code, summer of code söyleşi, enis karaarslan
 ---
 
 Mert Kahyaoğlu, **MSKÜ Bilgisayar Mühendisliği Bölümü**’nün en başarılı öğrencilerinden. Bu yazıda özgür yazılım projelerine olan katkısından, web teknolojilerinden ve “**google summer of code**” (google’da kodlama – google’da staj) kabul olmasından sözedeceğiz.

@@ -1,6 +1,7 @@
 ---
 title: Jekyll Admin Initial Release
 layout: post
+keywords: jekyll, jekyll admin, jekyll admin release
 ---
 
 [Jekyll's Google Summer of Code Project](http://jekyllrb.com/news/2016/06/03/update-on-jekyll-s-google-summer-of-code-projects/) has concluded. After three months of hard (but fun) work with my mentors [@benbalter](https://github.com/benbalter), [@jldec](https://github.com/jldec), and [@parkr](https://github.com/parkr), I'm proud to announce [Jekyll Admin](https://github.com/jekyll/jekyll-admin)'s [initial release](https://github.com/jekyll/jekyll-admin/releases/tag/v0.1.0). Jekyll admin is a Jekyll plugin that provides users with a traditional CMS-style graphical interface to author content and administer Jekyll sites. You can start to use it right away by following [these instructions](https://github.com/jekyll/jekyll-admin#installation).
