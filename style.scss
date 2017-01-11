@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
+  margin: 1em 0 5px;
   padding: 0;
 
   @include mobile {
@@ -58,8 +58,9 @@ h4 {
 }
 
 hr {
-  background-color: #ccc;
+  background-color: #ddd;
   border: none;
+  margin: 15px
   height: 1px;
 }
 
@@ -68,11 +69,11 @@ p {
 }
 
 a {
-  color: orange;
+  color: $orange;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: darkorange;
+    color: $lightOrange;
   }
 }
 
@@ -116,7 +117,8 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $softGray;
+  font-size: 14pt;
 }
 
 // Specify the color of the selection
@@ -180,7 +182,7 @@ img {
     top: -8px;
     content: ' { ';
     font-size: 60px;
-    color: darkorange;
+    color: $orange;
   }
 
   &::after {
@@ -189,7 +191,7 @@ img {
     top: -8px;
     content: ' } ';
     font-size: 60px;
-    color: darkorange;
+    color: $orange;
   }
 
   @include mobile {
@@ -211,8 +213,8 @@ img {
 
 .site-description {
   margin: 0;
-  color: $gray;
-  font-size: 16px;
+  color: $softGray;
+  font-size: 17px;
 
   @include mobile {
     margin: 3px 0;
@@ -238,6 +240,10 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+
+    &.active {
+      color: $orange;
+    }
 
     @include mobile {
       margin: 0 10px;
@@ -275,10 +281,8 @@ nav {
   }
 
   .read-more {
-    display: inline-block;
-    border-radius: 2px;
-    padding: 4px 12px;
-    transition: background 0.2s ease-in-out;
+    border-radius: 4px;
+    padding: 6px 12px;
     font-size: 16px;
     background-color: #f6f6f6;
   }
@@ -287,7 +291,6 @@ nav {
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
   background-color: $lightGray;
 }
 
@@ -297,7 +300,7 @@ footer {
 }
 
 .orange {
-  color: darkorange;
+  color: $orange;
 }
 
 @import "highlights";
