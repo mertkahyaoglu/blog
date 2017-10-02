@@ -11,10 +11,10 @@ Bu yazıda uzunca süredir beklenen yeni React 16 (Kod Adı "Fiber") versiyonunu
 * Hata yakalama
 * Portallar
 
-Benim örnek vermek istediğim son 3 madde olacak. Çünkü bu 3 madde gerçektente hayat kurtaracak derece önemli. Hemen örneklere geçiyorum.
+Benim örnek vermek istediğim son 3 madde olacak. Çünkü bu 3 madde gerçekten de hayat kurtaracak derece önemli. Hemen örneklere geçiyorum.
 
 # render methodunda Array ve String döndürme
-Çoğumuzun başına gelmiştir. Bir component'te birden fazla element döndürmeye kalkarız ve React bize bir hata mesajı verir. Biz de o elementleri bir `div` içerisine alır devam ederiz. Artık bunu yapmamıza gerek kalmayacak. Benim en çok hoşuma giden özellik bu oldu. Artık daha sade bir DOM yapısı oluşuturabileceğiz.
+Çoğumuzun başına gelmiştir. Bir component'te birden fazla element döndürmeye kalkarız ve React bize bir hata mesajı verir. Biz de o elementleri bir `div` içerisine alır devam ederiz. Artık bunu yapmamıza gerek kalmayacak. Benim en çok hoşuma giden özellik bu oldu. Artık daha sade bir DOM yapısı oluşturabileceğiz.
 
 <script src="https://gist.github.com/mertkahyaoglu/2d28e482618a0b723282573735fbf2db.js"></script>
 
