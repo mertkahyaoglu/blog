@@ -38,4 +38,4 @@ Portal ana React component'imizi mount ettiğimiz DOM elementinin dışında her
 
 Burada listeleme yapan ana componentimiz ilk 3 elemanı  `root`  id'li `div`'e mount olmuşken geri kalanları `root2` id'li `div`'e mount oldu. Bu gerçek hayatta nerede işimize yarar derseniz; overlay ya da modal kullanmamız gereken yerlerde bize büyük kolaylık sağlayabilir. Böylece mount olunan DOM elementi dışında modal veya overlay elementlerini `createPortal` ile tanımlayabiliriz.
 
-Bu yazının olabildiğince kısa ve öz olmasını istedim. Umarım React 16'nın bu önemli özellikleri hakkında az çok bilgi verebilmişimdir. Herkes iyi geliştirmeler..
+Bu yazının olabildiğince kısa ve öz olmasını istedim. Umarım React 16'nın bu önemli özellikleri hakkında az çok bilgi verebilmişimdir. Herkese iyi geliştirmeler..
