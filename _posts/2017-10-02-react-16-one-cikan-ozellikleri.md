@@ -12,7 +12,8 @@ Bu yazıda uzunca süredir beklenen yeni React 16 (Kod Adı "Fiber") versiyonunu
 * Portallar
 
 Benim örnek vermek istediğim son 3 madde olacak. Çünkü bu 3 madde gerçektente hayat kurtaracak derece önemli. Hemen örneklere geçiyorum.
-# `render` methodunda Array ve String döndürme
+
+# render methodunda Array ve String döndürme
 Çoğumuzun başına gelmiştir. Bir component'te birden fazla element döndürmeye kalkarız ve React bize bir hata mesajı verir. Biz de o elementleri bir `div` içerisine alır devam ederiz. Artık bunu yapmamıza gerek kalmayacak. Benim en çok hoşuma giden özellik bu oldu. Artık daha sade bir DOM yapısı oluşuturabileceğiz.
 
 <script src="https://gist.github.com/mertkahyaoglu/2d28e482618a0b723282573735fbf2db.js"></script>
@@ -24,7 +25,7 @@ Diğer bir güzel özellik ise artık `render` methodunda stringleri span içeri
 <script src="https://gist.github.com/mertkahyaoglu/9aac921368ecac8ab6d8b7c8ab7856c6.js"></script>
 
 # Hata yakalama
-Artık React componentlerimizde herhangi bir nedenle hata aldığımızda `componentDidCatch`  methodu ile bu hatayı yakalayıp önlemler alabileceğiz. 
+Artık React componentlerimizde herhangi bir nedenle hata aldığımızda `componentDidCatch`  methodu ile bu hatayı yakalayıp önlemler alabileceğiz.
 
 <script src="https://gist.github.com/mertkahyaoglu/a28f2ade37d72f747529bbdc537c0ba2.js"></script>
 
