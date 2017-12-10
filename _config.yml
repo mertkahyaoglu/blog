@@ -23,7 +23,7 @@ markdown: kramdown
 sass:
   style: :expanded
 
-gems:
+plugins:
   - jemoji
 
 exclude:
